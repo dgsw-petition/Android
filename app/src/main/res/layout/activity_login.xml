@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1e88e5"
+    android:background="@color/colorPrimary"
     tools:context=".Login"
     >
 
@@ -12,7 +12,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="300dp"
-        android:background="#99ffffff"
+        android:background="#85ffffff"
         app:layout_constraintBottom_toTopOf="@+id/login_bottom_base"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
