@@ -11,12 +11,12 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
-        android:layout_height="302dp"
+        android:layout_height="300dp"
         android:background="#99ffffff"
-        app:layout_constraintHorizontal_weight=""
         app:layout_constraintBottom_toTopOf="@+id/login_bottom_base"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_weight=""
         app:layout_constraintStart_toStartOf="parent">
 
         <android.support.constraint.ConstraintLayout
