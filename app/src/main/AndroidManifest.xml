@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Sign" />
+        <activity android:name=".Sign2"></activity>
     </application>
 
 </manifest>
