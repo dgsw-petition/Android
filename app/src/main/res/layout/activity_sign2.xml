@@ -85,7 +85,7 @@
                 app:srcCompat="@drawable/key" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/sign2_edit_number"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="3dp"
@@ -144,7 +144,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/sign2_edit_code"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="3dp"

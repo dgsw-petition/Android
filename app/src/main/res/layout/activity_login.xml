@@ -81,12 +81,11 @@
             android:id="@+id/login_con_pw"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginBottom="8dp"
             android:layout_marginEnd="40dp"
             android:layout_marginStart="40dp"
-            app:layout_constraintDimensionRatio="6:1"
             android:background="@drawable/radius"
-            app:layout_constraintBottom_toTopOf="@+id/to_sign_btn"
+            app:layout_constraintBottom_toTopOf="@+id/login_to_sign_btn"
+            app:layout_constraintDimensionRatio="6:1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -148,7 +147,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/to_sign_btn"
+            android:id="@+id/login_to_sign_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
