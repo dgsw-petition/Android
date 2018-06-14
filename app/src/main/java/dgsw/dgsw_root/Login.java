@@ -14,7 +14,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Button to_sign = findViewById(R.id.login_to_sign_btn);
-        View.OnClickListener onClickListener = new View.OnClickListener(){
+        View.OnClickListener ToSign = new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent nextIntent = new Intent(Login.this,Sign.class);
@@ -22,7 +22,18 @@ public class Login extends AppCompatActivity {
             }
         };
 
-        to_sign.setOnClickListener(onClickListener);
+        Button to_main = findViewById(R.id.do_login_btn);
+
+        View.OnClickListener ToMain = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent nextIntent = new Intent(Login.this, Main.class);
+                startActivity(nextIntent);
+            }
+        };
+
+        to_sign.setOnClickListener(ToSign);
+        to_main.setOnClickListener(ToMain);
 
     }
 }

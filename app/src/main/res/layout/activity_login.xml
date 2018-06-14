@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="#fafafa"
     tools:context=".Login"
     >
 
@@ -13,8 +13,8 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#85ffffff"
-        app:layout_constraintDimensionRatio="1:0.9"
         app:layout_constraintBottom_toTopOf="@+id/login_bottom_base"
+        app:layout_constraintDimensionRatio="1:0.9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
@@ -48,9 +48,9 @@
                 android:layout_width="2dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="8dp"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
-                android:background="#50000000"
+                android:background="@color/colorPrimary"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/login_account_logo"
@@ -106,9 +106,9 @@
                 android:layout_width="2dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="8dp"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
-                android:background="#50000000"
+                android:background="@color/colorPrimary"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/login_pw_logo"
@@ -141,8 +141,8 @@
             android:text="Login"
             android:textColor="#ffffff"
             android:textSize="18sp"
-            app:layout_constraintDimensionRatio="10:1.3"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="10:1.2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -176,12 +176,12 @@
         android:id="@+id/login_bottom_base"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="8dp"
         android:background="#1976d2"
         android:orientation="vertical"
-        app:layout_constraintDimensionRatio="50:1"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="50:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 </android.support.constraint.ConstraintLayout>
