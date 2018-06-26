@@ -22,7 +22,8 @@
             android:name=".Main"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
-        <activity android:name=".AnswerActivity"></activity>
+        <activity android:name=".AnswerActivity" />
+        <activity android:name=".SelectService"></activity>
     </application>
 
 </manifest>
