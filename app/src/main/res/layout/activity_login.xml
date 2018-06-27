@@ -139,6 +139,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/gradient"
             android:text="Login"
+            android:textStyle="bold"
             android:textColor="#ffffff"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"

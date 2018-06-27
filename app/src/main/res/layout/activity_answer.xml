@@ -27,6 +27,7 @@
             android:layout_marginTop="8dp"
             android:elevation="3dp"
             android:text="답변하기"
+            android:textStyle="bold"
             android:textColor="#ffffff"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
